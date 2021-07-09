@@ -1,4 +1,6 @@
-#QUERY BANCO DE DADOS
+# GUIA DE INSTALAÇÃO
+## QUERY BANCO DE DADOS
+Executar query abaixo no banco de dados para criar as tabelas.
 ```sql
 CREATE DATABASE crmall;
 USE crmall;
@@ -25,3 +27,10 @@ CREATE TABLE Cliente (
     FOREIGN KEY(idEndereco) REFERENCES Endereco(idEndereco)
 );
 ```
+
+## ATUALIZANDO DEPENDENCIAS
+Executar comando `composer update` para atualizar as dependencias
+
+## EXECUTAR SERVIDOR
+Para executar o servidor utilizar o comando abaixo
+``php -S localhost:8080``
