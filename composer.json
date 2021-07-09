@@ -1,0 +1,19 @@
+{
+    "name": "crud-cliente/php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jefferson Miranda",
+            "email": "jeffersonmiranda0@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "slim/php-view": "^3.1"
+    }
+}
